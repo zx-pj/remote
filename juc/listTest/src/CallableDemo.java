@@ -20,7 +20,7 @@ public class CallableDemo {
         new Thread(futureTask, "A").start();
         new Thread(futureTask, "B").start();  //同用一个futureTask，再次访问会直接返回缓存内容
 
-        System.out.println(Thread.currentThread().getName()+"****计算完成lalalalal");
+        System.out.println(Thread.currentThread().getName()+"****计算完成lalalalaldddd");
         System.out.println(futureTask.get());
 
     }
